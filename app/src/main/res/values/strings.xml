@@ -1,0 +1,72 @@
+<resources>
+    // String for images
+    <string name="project_logo_description">Project Logo</string>
+
+    // Strings for MainActivity.java
+    <string name="app_name">LaundroBook</string>
+    <string name="cannot_find_username">Username does not exist</string>
+    <string name="user_change_input_prompt">Please ensure you correctly fill your username and password</string>
+    <string name="login_success">Login successful</string>
+    <string name="username_exists">Username already exists</string>
+    <string name="too_short">"Password is too short"</string>
+    <string name="uppercase_needed">"Password should have an upper case letter"</string>
+    <string name="lowercase_needed">"Password should have a lower case letter"</string>
+    <string name="number_needed">"Password should have a number"</string>
+    <string name="account_created">Account created!</string>
+
+    // Strings for activity_main.xml
+    <string name="random_image">Random Images</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="forget_text">Forget Password?</string>
+    <string name="register_text">Register</string>
+
+    // Strings for activity_booking_panel.xml
+    <string name="wash_machine_text">Washer</string>
+    <string name="dryer_text">Dryer</string>
+    <string name="refresh_text">Refresh</string>
+    <string name="confirm_text">Confirm</string>
+    <string name="placeholder_text"> </string>
+
+    // Strings for activity_first_page
+    <string name="announcement_placeholder">Place announcements here</string>
+    <string name="Account_Settings">Account Settings</string>
+    <string name="Book_A_Machine">Book a Machine</string>
+    <string name="Cancel_My_Booking">Cancel My Booking</string>
+    <string name="Display_Booking_And_Time">Display My Booking and Estimated Time of Completion</string>
+
+    // Strings for BookingPanel.java
+    <string name="no_box_selected">No machine was selected</string>
+    <string name="machine_booked">Machine has been booked by another user, please try another one!</string>
+    <string name="no_more_than_two">Cannot book more than 2 machine</string>
+    <string name="W1_text">W1</string>
+    <string name="W2_text">W2</string>
+    <string name="W3_text">W3</string>
+    <string name="W4_text">W4</string>
+    <string name="W5_text">W5</string>
+    <string name="W6_text">W6</string>
+    <string name="W7_text">W7</string>
+    <string name="W8_text">W8</string>
+    <string name="W9_text">W9</string>
+    <string name="W10_text">W10</string>
+    <string name="W11_text">W11</string>
+    <string name="D1_text">D1</string>
+    <string name="D2_text">D2</string>
+    <string name="D3_text">D3</string>
+    <string name="D4_text">D4</string>
+    <string name="D5_text">D5</string>
+    <string name="D6_text">D6</string>
+
+    // Strings for Pop_up.java
+    <string name="machine_selected">Machine is already booked by</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="book_text">Book</string>
+
+    //Strings for Dashboard.java
+    <string name="about">About</string>
+    <string name="notif_set">Notification Settings</string>
+    <string name="delete_acc">Delete Account</string>
+
+</resources>

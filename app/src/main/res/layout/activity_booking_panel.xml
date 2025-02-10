@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingPanel"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/charaImage"
+        android:layout_gravity="center"
+        android:src="@drawable/layout"
+        android:contentDescription="@string/project_logo_description" />
+
+    <GridLayout android:id="@+id/Heading_WD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="@string/wash_machine_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="@string/dryer_text" />
+    </GridLayout>
+    <LinearLayout android:id="@+id/W1W2D1D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/W1"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W1_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/W2"
+            android:layout_weight="0.25"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W2_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/D1"
+            android:layout_weight="0.25"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/D1_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/D2"
+            android:layout_weight="0.25"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/D2_text"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/W3W4D3D4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/W3"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W3_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/W4"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W4_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/D3"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/D3_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/D4"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/D4_text"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/W5W6D5D6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/W5"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W5_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox android:id="@+id/W6"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W6_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox
+            android:id="@+id/D5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.25"
+            android:enabled="true"
+            android:checked="false"
+            android:text="@string/D5_text" />
+
+        <CheckBox android:id="@+id/D6"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/D6_text"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/W7W8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/W7"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W7_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <CheckBox
+            android:id="@+id/W8"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/W8_text"
+            android:layout_marginEnd="10dp"
+            android:enabled="true"
+            android:checked="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <TextView android:id="@+id/Blank1"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            android:layout_marginEnd="10dp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <TextView android:id="@+id/Blank2"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/W9W10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/W9"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.25"
+            android:checked="false"
+            android:enabled="true"
+            android:text="@string/W9_text" />
+
+        <CheckBox
+            android:id="@+id/W10"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_weight="0.25"
+            android:checked="false"
+            android:enabled="true"
+            android:layout_marginEnd="5dp"
+            android:text="@string/W10_text" />
+
+        <TextView android:id="@+id/Blank9"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.22"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <TextView android:id="@+id/Blank10"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.23"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/W11LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/W11"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_weight="0.31"
+            android:checked="false"
+            android:enabled="true"
+            android:text="@string/W11_text" />
+
+        <TextView android:id="@+id/Blank7"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <TextView android:id="@+id/Blank6"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <TextView android:id="@+id/Blank5"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/refresh_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh_text"  />
+
+        <TextView
+            android:id="@+id/Blank0"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_columnWeight="1"
+            android:layout_weight="0.1"
+            android:text="@string/placeholder_text" />
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_text" />
+    </LinearLayout>
+
+
+</LinearLayout>

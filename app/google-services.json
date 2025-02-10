@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826778547692",
+    "firebase_url": "https://laundrobook-default-rtdb.firebaseio.com",
+    "project_id": "laundrobook",
+    "storage_bucket": "laundrobook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826778547692:android:21eb7d3f1e44dce699bcc9",
+        "android_client_info": {
+          "package_name": "com.example.laundrobook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826778547692-u6f5s32an34tc32gpo31abktrick3pta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laundrobook",
+            "certificate_hash": "a0d1fd5e7e1c3381ac282e2113150a07b5b8da8d"
+          }
+        },
+        {
+          "client_id": "826778547692-qdgdbgslfdsg9obmdf22tuq1lhapssuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "aIzaSyCFE3QkieEpor1RiDHuOW0KDnT9BT0WU9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826778547692-qdgdbgslfdsg9obmdf22tuq1lhapssuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
